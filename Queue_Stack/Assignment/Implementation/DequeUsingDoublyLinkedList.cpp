@@ -58,7 +58,7 @@ int main()
     s.push_front(1);
     s.push_front(2);
     s.push_back(-1);
-    cout<<"front: "<<get_front()<<"\n";
-    cout<<"back: "<<get_back()<<"\n";
+    cout<<"front: "<<s.get_front()<<"\n";
+    cout<<"back: "<<s.get_back()<<"\n";
     s.display_queue();
 }
